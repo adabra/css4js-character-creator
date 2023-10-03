@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  isolation: isolate;
 }
 
 .header {
@@ -42,5 +43,4 @@
   width: 100%;
   position: fixed;
   top: 60%;
-  z-index: -1;
 }
